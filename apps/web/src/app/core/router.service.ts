@@ -61,7 +61,7 @@ export class RouterService {
       .subscribe((event: NavigationEnd) => {
         this.currentUrl = event.url;
 
-        let title = "Vaultwarden Web";
+        let title = i18nService.t("bitWebVault");
 
         if (this.currentUrl.includes("/sm/")) {
           title = i18nService.t("bitSecretsManager");
