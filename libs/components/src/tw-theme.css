@@ -384,19 +384,15 @@
   /**========================================
    * SIDENAV CUSTOM COLORS (Light mode)
    * ======================================== */
-  --color-sidenav-background: var(--color-brand-800);
-  --color-sidenav-text: var(--color-white);
-  --color-sidenav-active-item: var(--color-brand-900);
-  --color-sidenav-item-hover: var(--color-brand-900);
 
   /* Sidenav Foreground */
   --color-nav-fg-primary: var(--color-white);
   --color-nav-fg-secondary: var(--color-gray-900);
 
   /* Sidenav Background */
-  --color-nav-bg-primary: #212529;
+  --color-nav-bg-primary: var(--color-brand-800);
   --color-nav-bg-secondary: var(--color-gray-100);
-  --color-nav-bg-primary-strong: #101215;
+  --color-nav-bg-primary-strong: var(--color-brand-900);
   --color-nav-bg-secondary-strong: var(--color-gray-300);
 
   /* Sidenav Hover */
